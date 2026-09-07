@@ -222,7 +222,7 @@ nav a:hover { color: var(--kp-blue); }
 .cards-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 28px;
+    gap:28px;
 }
 .attraction-card {
     background: #ffffff;
@@ -583,6 +583,14 @@ footer {
 }
 .footer-logotype{
     width: 350px;
+}
+.card-tag{
+    display:inline-block;
+    margin-top:-20px;
+    margin-left:-15px;
+}
+.{
+
 }
 /* Mobile */
 @media (max-width: 768px) {
