@@ -23,7 +23,7 @@
 
 /* Header */
 header {
-    position: sticky;
+    /* position: sticky; */
     top: 0;
     z-index: 100;
     background: rgba(255, 255, 255, 0.96);
@@ -555,7 +555,7 @@ footer {
 .footer-logo {
     max-height: 48px;
     margin-bottom: 14px;
-    filter: brightness(1.8);
+    /* filter: brightness(1.8); */
 }
 .footer-col h4 {
     color: #ffffff;
@@ -580,6 +580,9 @@ footer {
 .footer-col-p{
     width:65%;
     margin-right:300px;
+}
+.footer-logotype{
+    width: 350px;
 }
 /* Mobile */
 @media (max-width: 768px) {
